@@ -1,8 +1,9 @@
-# Denextel Python Graphics Engine Display
+'''
+Denextel Python Graphics Engine Display
 # DPGED.PY
-# 2018 Denextel, 2018 Rygel Dagenais
-# Part of the DenextelPythonScreenKit 
-
+# 2018-2019 Denextel 
+# 2018-2019 Rygel Dagenais
+'''
 __version__ = '0.2.4.4 indev 2'
 
 from tkinter import Tk, Canvas, Frame, BOTH
@@ -100,3 +101,4 @@ being the name of the canvas"""
     name = Screen("p",  screenname )
     main(name,length,width,xy)
     return name
+
